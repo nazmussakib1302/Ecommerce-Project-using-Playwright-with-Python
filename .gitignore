@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+
+# Test output
+reports/
+screenshots/
+test-results/
+allure-results/
+*.log
+
+# OS
+.DS_Store
