@@ -20,3 +20,5 @@ allure-results/
 
 # OS
 .DS_Store
+recordings/
+allure-report/

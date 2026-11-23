@@ -1,0 +1,17 @@
+{
+  "invalid_logins": [
+    {
+      "id": "wrong_password",
+      "username": "__ENV_USERNAME__",
+      "password": "wrong-password-123",
+      "expected_alert": "Wrong password."
+    },
+    {
+      "id": "unknown_user",
+      "username": "no_such_user_xyz_987654",
+      "password": "anything",
+      "expected_alert": "User does not exist."
+    }
+  ],
+  "existing_user_signup_alert": "This user already exist."
+}
